@@ -7,12 +7,25 @@ body{
     width: 100%;
     
 }
+.navbar{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-content: flex-end;
+    position: absolute;
+}
+.img-fluid{
+    position: relative;
+    float: right;
+}
 .outer{
     width: 100%;
     overflow: hidden;
 }
 .navbar{
     display: flex;
+    
 
 }
 .nav-logo{
@@ -48,6 +61,8 @@ body{
 .soon{
     width: 100%;
     height: auto;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .middle-section-content{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -204,4 +219,7 @@ table{
 }
 .container{
     overflow: hidden;
+}
+.card-body{
+    border: none;
 }
