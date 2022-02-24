@@ -1,0 +1,206 @@
+/* body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+} */
+body{
+    height: 100%;
+    width: 100%;
+}
+.outer{
+    width: 100%;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+
+}
+.nav-logo{
+    width: 650px;
+    max-width: 650px;
+    align-self: left;
+    overflow: hidden;
+}
+.logo{
+    width: 100%;
+    align-self:center;
+    align-self: center;
+    /* padding-right: 10px; */
+
+}
+.company-name{
+    align-content: flex-end;
+    color:#0583d2;
+    
+}
+.page-footer{
+    width: 100%;
+    bottom:0;
+    position: fixed;
+}
+.middle{
+    width: 100%;
+    height: 350px;
+    align-items: center;
+   
+
+}
+.soon{
+    width: 100%;
+    height: auto;
+}
+.middle-section-content{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 80px;
+    color:#0583d2;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.cont1{
+    align-items: center;
+    text-align: center;
+   
+    color: black;
+}
+.desc{
+   vertical-align: middle;
+  margin-top: 120px;
+}
+.fin{
+    color: #0583d2;
+}
+.cont-nav{
+    display: flex;
+    justify-content: right;
+    background-color: white;
+    align-items: center;
+    /* width: 100%;
+    height: auto; */
+    /* height: 130px; */
+    align-content: center;
+}
+.nav-img{
+    align-items: center;
+    align-content: center;
+    /* margin-left: 100px; */
+}
+.cont-sub{
+    line-height: 0%;
+    vertical-align: middle;
+    display: flex;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    position: relative;
+    min-height: 100px;
+    justify-content: right;
+}
+.contactus{
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    /* margin-top: 15px; */
+    
+    
+}
+.em-ph{
+    position: absolute;
+    bottom: 0;    
+    padding-right: 50px;
+    line-height: 20px;
+    overflow: hidden;
+    
+    /* margin-left: 50px; */
+}
+
+.bottom{
+    /* text-align: center; */
+    text-align: justify;
+    padding: 2px;
+    border: 2px solid white;
+    color: black;
+    
+}
+
+.btm{
+    text-align: left;
+    position:absolute;
+    line-height: 0%;
+    bottom: 0;
+    left: 100px;
+    
+}
+
+.bulb{
+    color: hsl(59, 98%, 48%);
+}
+.soon-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  overflow: hidden;
+}
+.well{
+    align-content: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.cont-btm{
+    position: relative;
+    display: block;
+    padding: 50px; 
+}
+table{
+    /* table-layout:fixed; */
+    width:100%;
+}
+.company-location{
+    
+    width:20%;
+    line-height: 20px;
+    font-size: 13px;
+    overflow: hidden;
+    /* width:280px;
+     height: 100px; */ 
+    /* border: 2px solid black; */
+    /* word-wrap: break-all;
+    text-align: justify;
+    padding: 5px; */
+}
+.content{
+  width: 200px;
+  word-wrap:break-all; /*old browsers*/
+  overflow-wrap:break-word;
+  
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.items{
+    position: relative;
+    width: 100%;
+    display: table;
+    bottom: 0%;
+    /* position: absolute; */
+
+}
+.left-item{
+    line-height: 0%;
+    float: left;
+    padding-left: 15px;
+}
+.right-item{
+    float: right;
+    margin-top: 55px;
+    line-height: 0%;padding: 0%;
+    
+}
+.container{
+    overflow: hidden;
+}
