@@ -221,5 +221,8 @@ table{
     overflow: hidden;
 }
 .card-body{
-    border: none;
+    display: flex;
+}
+.card-text{
+    align-content: center;
 }
