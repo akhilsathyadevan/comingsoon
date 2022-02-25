@@ -232,6 +232,7 @@ table{
 .para-body-right{
     border: 2px solid white;
     width: 100%;
+    max-height: 20%;
     padding: 7px;
     font-size: 90%;
     text-align: center;
