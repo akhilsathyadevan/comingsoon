@@ -7,27 +7,27 @@ body{
     width: 100%;
     
 }
-.navbar{
+/* .navbar{
     width: 100%;
     height: auto;
     overflow: hidden;
     display: flex;
     align-content: flex-end;
     position: absolute;
-}
-.img-fluid{
+} */
+/* .img-fluid{
     position: relative;
     float: right;
-}
+} */
 .outer{
     width: 100%;
     overflow: hidden;
 }
-.navbar{
+/* .navbar{
     display: flex;
     
 
-}
+} */
 .nav-logo{
     width: 650px;
     max-width: 650px;
@@ -236,4 +236,68 @@ table{
     padding: 7px;
     font-size: 90%;
     text-align: center;
+}
+.navbar{
+    overflow: hidden;
+   
+   
+}
+.navbar-brand{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.social{
+    display: flex;
+    padding: 10px;
+
+}
+.fa-brands{
+    /* width: 80px; */
+    padding: 10px;
+}
+.img-fluid{
+    height: auto;
+    width: 100%;
+}
+.date-time{
+    border: 2 px solid red;
+    background: white;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 15px;
+    margin-top: 20px;
+    float: right;
+}
+.fst{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 12px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    /* position: absolute; */
+    
+}
+.snd{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 12px;
+    padding-top: 7px;
+    width: 100%;
+    color: black;
+    font-size: larger;
+    font-weight: 300;
+    /* position: absolute; */
+}
+
+#p2{
+    vertical-align: middle;
 }

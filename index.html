@@ -9,16 +9,34 @@
 </head>
 <body>
   <!-- <div class="container"> -->
+
+  
 <div class="container">
    
-
-    <nav class="navbar navbar-right navbar-expand-lg navbar-light bg-white">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <!-- <nav class="navbar  navbar-light bg-white"> -->
         <a class="navbar-brand " href="#"><img class="img-fluid" src="./images/new_logo.png" style="width: 200px;" alt=""></a>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-      
-    </nav>
+       <div class="date-time">
+        <div class="card border-0">
+          <div class="card-body">
+            <div class="fst">
+              <p id="p1"></p>
+             </div> &nbsp;
+             <div class="snd">
+               <p id="p2"></p>
+             </div>
+         </div> 
+
+          </div>
+        </div>
+        
+        
+        
+      <!-- </nav>  -->
+    </div >
+  </div>
+   
     <!-- <div class="row">
         <div class="col-md-12">
             <div class="row">
@@ -58,7 +76,7 @@
       <div class="card border-0 ">
         <div class="card-body text-lg-center text-md-center text-sm-center justify-content-sm-center justify-content-lg-center">
           <div class="para-body">
-          <p class="card-text"> <a href=""><i class="fa-solid fa-location-dot"></i></a> Fin Smart Station Private Limited,
+          <p class="card-text"> <a href=""><i class="fa-solid fa-location-dot" style="color: black;"></i></a> Fin Smart Station Private Limited,
             4 <sup>th</sup>  Floor, IIC   Websolution- Office,
             Nila Building, Technopark Campus,
              Thiruvananthapuram, Kerala , 
@@ -72,7 +90,12 @@
       <div class="col-sm-4 text-justify">
         <div class="card border-0">
           <div class="card-body">
-            
+            <div class="social"></div>
+            <a href=""><i class="fa-brands fa-facebook-square  fa-2x" style="color: black;"></i></a>
+            <a href=""> <i class="fa-brands fa-instagram-square fa-2x" style="color: black;"></i></a>
+            <a href=""><i class="fa-brands fa-twitter-square fa-2x" style="color: black;"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin fa-2x "style="color: black;"></i></a>
+            <a href=""></a>
            
           </div>
         </div>
@@ -83,8 +106,8 @@
         <div class="card-body text-center  justify-content-center ">
           <div class="para-body-right">
           <p class="card-text">
-            <a href=""><i class="fa-solid fa-envelope"></i></a> Email: info@finsmart.com</span> <br>
-            <a href=""> <i class="fa-solid fa-mobile-screen-button"></i></a> Phone: +91 9895786025 &nbsp; </span></p>
+            <a href=""><i class="fa-solid fa-envelope" style="color: black;"></i></a> Email: info@finsmart.com</span> <br>
+            <a href=""> <i class="fa-solid fa-mobile-screen-button" style="color: black;"></i></a> Phone: +91 9895786025 &nbsp; </span></p>
           </div>
         </div>
       </div>
@@ -141,7 +164,19 @@
   
 
 
+<script>
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+document.getElementById("p1").innerHTML=date;
+document.getElementById("p2").innerHTML=time;
 
+function refreshPage()
+    {
+        window.location = window.location.href;
+    }
+    setInterval('refreshPage()', 5000);
+</script>
 
 
   <!-- <script src="./assets/scripts/animate.js"></script>
