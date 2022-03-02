@@ -253,7 +253,7 @@ table{
 }
 .social{
     display: flex;
-    padding: 10px;
+    /* padding: 10px; */
 
 }
 .fa-brands{
@@ -267,7 +267,7 @@ table{
 .date-time{
     border: 2 px solid red;
     background: white;
-    width: 30%;
+    width: 20%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -275,6 +275,7 @@ table{
     border-radius: 15px;
     margin-top: 20px;
     float: right;
+    position: relative;
 }
 .fst{
     border: 1px solid black;
@@ -293,11 +294,11 @@ table{
     padding-top: 7px;
     width: 100%;
     color: black;
-    font-size: larger;
-    font-weight: 300;
+    /* font-size: larger; */
+    /* font-weight: 300; */
     /* position: absolute; */
 }
 
-#p2{
+/* #p2{
     vertical-align: middle;
-}
+} */

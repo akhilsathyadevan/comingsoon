@@ -20,10 +20,10 @@
        <div class="date-time">
         <div class="card border-0">
           <div class="card-body">
-            <div class="fst">
+            <div class="fst sm-12 md-12 ">
               <p id="p1"></p>
              </div> &nbsp;
-             <div class="snd">
+             <div class="snd sm-12 md-12 ">
                <p id="p2"></p>
              </div>
          </div> 
@@ -89,7 +89,7 @@
    
       <div class="col-sm-4 text-justify">
         <div class="card border-0">
-          <div class="card-body">
+          <div class="card-body justify-content-center ">
             <div class="social"></div>
             <a href=""><i class="fa-brands fa-facebook-square  fa-2x" style="color: black;"></i></a>
             <a href=""> <i class="fa-brands fa-instagram-square fa-2x" style="color: black;"></i></a>
@@ -171,12 +171,12 @@ var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(
 document.getElementById("p1").innerHTML=date;
 document.getElementById("p2").innerHTML=time;
 
-function refreshPage()
-    {
-        window.location = window.location.href;
-    }
-    setInterval('refreshPage()', 5000);
-</script>
+// function refreshPage()
+//     {
+//         window.location = window.location.href;
+//     }
+//     setInterval('refreshPage()', 5000);
+// </script>
 
 
   <!-- <script src="./assets/scripts/animate.js"></script>
