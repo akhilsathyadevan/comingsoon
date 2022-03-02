@@ -38,6 +38,8 @@ body{
     width: 100%;
     align-self:center;
     align-self: center;
+    display: flex;
+    float: left;
     /* padding-right: 10px; */
 
 }
@@ -302,3 +304,7 @@ table{
 /* #p2{
     vertical-align: middle;
 } */
+.cont-nav{
+    background-color: white;
+    align-items: center;
+}
