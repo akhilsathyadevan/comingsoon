@@ -35,12 +35,21 @@ body{
     overflow: hidden;
 }
 .logo{
-    width: 100%;
+    /* width: 100%;
     align-self:center;
     align-self: center;
     display: flex;
-    float: left;
-    /* padding-right: 10px; */
+    float: left; */
+    
+  /* position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  width:200px; */
 
 }
 .company-name{
@@ -90,14 +99,17 @@ body{
     color: #0583d2;
 }
 .cont-nav{
-    display: flex;
+    /* display: flex;
     justify-content: right;
     background-color: white;
     align-items: center;
-    /* width: 100%;
-    height: auto; */
-    /* height: 130px; */
-    align-content: center;
+    align-content: center; */
+
+    /* position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%; */
 }
 .nav-img{
     align-items: center;
